@@ -24,6 +24,6 @@ ENV WEB_PORT 80
 EXPOSE  80
 
 # Define command to run the application when the container starts
-#CMD [sleep 60; npm start] 
+CMD [sleep 60; npm start] 
 CMD ["node", "/app/app.js"] 
 
